@@ -1,0 +1,12 @@
+//ZA TXT********************************************
+        f = fopen("akvizicija.txt", "w");
+        if (f == NULL)
+        {
+            printf("Error opening file!\n");
+        }
+        const char *text = "Pozdrav iz upisa";
+        fprintf(f, "Some text: %s\n", text);
+
+
+        fclose(f);
+        //ZA TXT********************************************
